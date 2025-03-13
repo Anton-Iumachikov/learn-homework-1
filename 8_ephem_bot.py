@@ -41,9 +41,13 @@ def talk_to_me(update, context):
     print(user_text)
     update.message.reply_text(text)
 
+def talk_to_me(update, context):
+    user_text = /planet Mars 
+    print(user_text)
+    update.message.reply_text(user_text)
 
 def main():
-    mybot = Updater("КЛЮЧ, КОТОРЫЙ НАМ ВЫДАЛ BotFather", request_kwargs=PROXY, use_context=True)
+    mybot = Updater("7245856451:AAFv4H1znkXDyCi2fPB9CHF4wOT_XE4I8Jo", request_kwargs=PROXY, use_context=True)
 
     dp = mybot.dispatcher
     dp.add_handler(CommandHandler("start", greet_user))
@@ -55,3 +59,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+#c этим заданием у меня совсем все плохо
